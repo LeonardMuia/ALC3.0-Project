@@ -22,5 +22,4 @@ Just a simple App, with basic design, views and micro-processes.
 Feel free to contribute or edit the app for your needs. The app is yet to incorporate butter knife or data binding library to eliminate boilerplate.
 
 ## Testing
-You can test the design on your phone. Here is the apk:
-https://drive.google.com/open?id=1Bh8w9LgsO0HcT6_GYRffnBo49isSTgPD
+[You can test the design on your phone. Here is the apk](https://drive.google.com/open?id=1Bh8w9LgsO0HcT6_GYRffnBo49isSTgPD)
