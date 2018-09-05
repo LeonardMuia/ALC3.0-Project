@@ -97,16 +97,12 @@ public class BandsInfo extends Bands {
             int duration = Toast.LENGTH_LONG;
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
-
             ImageView bandImage = findViewById(R.id.headerBandImage);
             bandImage.setImageResource(R.drawable.acdc);
-
             TextView bandName = findViewById(R.id.titleA);
             bandName.setText(R.string.bandName2);
-
             TextView bandInfo = findViewById(R.id.description);
             bandInfo.setText(R.string.bandInfo2);
-
             TextView bandMember1 = findViewById(R.id.member1);
             TextView bandMember2 = findViewById(R.id.member2);
             TextView bandMember3 = findViewById(R.id.member3);
@@ -123,21 +119,17 @@ public class BandsInfo extends Bands {
             bandMember5.setText(R.string.bandMember10);
             bandMember6.setText(R.string.bandMember11);
             bandMember8.setText(R.string.bandMember12);
-
             TextView success = findViewById(R.id.successStory);
             success.setText(R.string.band1Success);
-
             TextView album1 = findViewById(R.id.album1);
             TextView album2 = findViewById(R.id.album2);
             TextView album3 = findViewById(R.id.album3);
             TextView album4 = findViewById(R.id.album4);
             TextView album5 = findViewById(R.id.album5);
             TextView album6 = findViewById(R.id.album6);
-
             album1.setText(R.string.bandAlbum1);
             album2.setText(R.string.bandAlbum2);
             album3.setText(R.string.bandAlbum3);
-
             TextView removeItems[] = {album4, album5, album6};
             for (int i = 0; i < removeItems.length; i++) {
                 removeItems[i].setVisibility(View.GONE);
@@ -145,4 +137,3 @@ public class BandsInfo extends Bands {
         }*/
     }
 }
-

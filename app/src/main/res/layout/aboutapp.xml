@@ -5,6 +5,7 @@
     android:background="@color/colorPrimaryDark">
 
     <!-- Main ViewGroup -->
+    <!-- TODO 6 : On style you can declare your fonts there for the entire app -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

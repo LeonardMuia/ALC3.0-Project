@@ -43,6 +43,7 @@ public class AboutBand extends Bands {
                 Context context = getApplicationContext();
                 CharSequence text = "Pick an Answer to Advance Next Question";
                 int duration = Toast.LENGTH_LONG;
+                //TODO 5 : some suggestions you can look into SnackBar :)
                 Toast toast = Toast.makeText(context, text, duration);
                 toast.show();
             }
