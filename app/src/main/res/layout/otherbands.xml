@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- Main ViewGroup -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Top Bar -->
+        <LinearLayout
+            android:id="@+id/headerTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/headerlogo" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/boldtitle"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:text="@string/header_text"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- Header Image -->
+
+        <ImageView
+            android:id="@+id/headerBandImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/headerTop"
+            android:scaleType="centerCrop"
+            android:src="@drawable/threedoorsdown" />
+
+        <!-- Title Section -->
+
+        <TextView
+            android:id="@+id/titleA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headerBandImage"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/boldtitle"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/bandName"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/backButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/headerBandImage"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/titleA"
+            android:paddingTop="10dp"
+            android:src="@drawable/backbtn" />
+
+        <ScrollView
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/titleA">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:fontFamily="@font/segoeuil"
+                    android:padding="10dp"
+                    android:text="@string/band_description"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/bandMembers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/description"
+                    android:fontFamily="@font/boldtitle"
+                    android:padding="10dp"
+                    android:text="@string/band_members"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/bandMembersList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bandMembers"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/member1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member1"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member2"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member3"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member7"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/member4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member4"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member5"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member6"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/member8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:text="@string/member8"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/success"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/bandMembersList"
+                    android:fontFamily="@font/boldtitle"
+                    android:padding="10dp"
+                    android:text="@string/success"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/successStory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/success"
+                    android:fontFamily="@font/segoeuil"
+                    android:padding="10dp"
+                    android:text="@string/success_story"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/albums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/successStory"
+                    android:fontFamily="@font/boldtitle"
+                    android:padding="10dp"
+                    android:text="@string/album"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/albumList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/albums"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <TextView
+                        android:id="@+id/album1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album1"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/album2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album2"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/album3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album3"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/album4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album4"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/album5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album5"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/album6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/album6"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/quizButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/albumList"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/quiz" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

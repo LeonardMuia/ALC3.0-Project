@@ -1,0 +1,230 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Rock Bands</string>
+
+    <!-- Welcome View -->
+    <string name="welcome_msg1">Welcome to</string>
+    <string name="welcome_msg2">Rock Bands</string>
+    <string name="header_text">Because Rock Music, Rocks Our World!</string>
+
+    <!-- Intro View -->
+    <string name="welcome">Rock Bands Native</string>
+    <string name="question1">Share your favorite rock song</string>
+    <string name="question2">What about you favorite rock band?</string>
+    <string name="hint1">Write the name of the song</string>
+    <string name="hint2">Write the name of the band</string>
+    <string name="appDescription">Rock music is loved all across the globe. It is a popular genre of music. By being incredibly entertaining, rock music has found its way into the hearts of many individuals, influencing their lives in one way or another. Rock music is able to tell a story, as well as describe and express nature of humanity. Probably, we have all heard of a rock song that has expressed our feelings, emotions or even our situation. Certainly while in our different stages of life.</string>
+    <string name="appDescription1">At the heart of rock music are rock bands. These are the artists who come up with compelling lyrics, rhythm and flow of rock music. Thanks to their skills, passion, talent and experience, they are able to reward us with songs that we sing over and over again. Songs that make us laugh or even cry. Songs that motivate us, challenge us and somehow impact our character. There are very many rock bands, and more are coming up. It is no doubt that we ought to appreciate talent in these rock bands. One way of doing so, is by getting to know the people who constitute a particular rock band.</string>
+    <string name="appDescription2">Rock Band App for android is here to appreciate rock bands. It is a listing of rock bands. In addition, you can learn about the individuals in a particular rock band, their songs, history and success. You can also take a quiz, to test yourself, whether you really know your favorite band. </string>
+    <!-- Bands View -->
+
+    <string name="title">Rock Music Bands</string>
+    <string name="title1">A-Z</string>
+
+    <!-- Listing All the Bands is not practical. For a more practical approach, I was thinking of JSON and the creation of a method in the Java File, which populates the bands listed. Maybe using a Loop, to iterate over the JSON. I am also positive that using JSON would also enable sorting the bands, alphabetically.-->
+    <string name="band1">3 Doors Down</string>
+    <string name="band2">5 Seconds of Summer</string>
+    <string name="band3">AC/DC</string>
+    <string name="band4">Aerosmith</string>
+    <string name="band5">American Authors</string>
+    <string name="band6">Black Sabbath</string>
+    <string name="band7">Black Stone Cherry</string>
+    <string name="band8">Blink 182</string>
+    <string name="band9">Bon Jovi</string>
+    <string name="band10">Cage the Elephants</string>
+    <string name="band11">Daughtry</string>
+    <string name="band12">Evanescence</string>
+    <string name="band13">Fall Out Boys</string>
+    <string name="band14">Fitz and the Tantrums</string>
+    <string name="band15">Flyleaf</string>
+    <string name="band16">Foo Fighters</string>
+    <string name="band17">Foster the People</string>
+    <string name="band18">Fountains of Wayne</string>
+    <string name="band19">Green Day</string>
+    <string name="band20">Guns n Roses</string>
+    <string name="band21">Hooberstank</string>
+    <string name="band22">Hoosiers</string>
+    <string name="band23">Imagine Dragons</string>
+    <string name="band24">Kings of Leon</string>
+    <string name="band25">Lifehouse</string>
+    <string name="band26">Linkin Park</string>
+    <string name="band27">Lumineers</string>
+    <string name="band28">Metallica</string>
+    <string name="band29">MGMT</string>
+    <string name="band30">Muse</string>
+    <string name="band31">Neon Trees</string>
+    <string name="band32">Nickelback</string>
+    <string name="band33">Nirvana</string>
+    <string name="band34">Oasis</string>
+    <string name="band35">Of Monsters and Men</string>
+    <string name="band36">Panic at the Disco</string>
+    <string name="band37">Paramore</string>
+    <string name="band38">Pink Floyd</string>
+    <string name="band39">Placebo</string>
+    <string name="band40">Plain White Ts</string>
+    <string name="band41">Radiohead</string>
+    <string name="band42">Red Hot Chilli Peppers</string>
+    <string name="band43">Rolling Stones</string>
+    <string name="band44">Skillet</string>
+    <string name="band45">Smash Mouth</string>
+    <string name="band46">Spin Doctors</string>
+    <string name="band47">System Of A Down</string>
+    <string name="band48">The Beatles</string>
+    <string name="band49">The Killers</string>
+    <string name="band50">The Who</string>
+    <string name="band51">The Cranberries</string>
+    <string name="band52">The Fray</string>
+    <string name="band53">The Script</string>
+    <string name="band54">The Train</string>
+    <string name="band55">Third Eye Blind</string>
+    <string name="band56">Twenty One Pilots</string>
+    <string name="band57">X-Ambassadors</string>
+
+
+    <!-- Bands Info View -->
+    <string name="bandName">3 Doors Down</string>
+    <string name="band_description">3 Doors Down is an American rock band. It was formed in 1996 from Escatwapa, Mississipi. The band became internationally famous after releasing their first single, \"Kryptonyte\". The band first album was named, \"The Better Life\", which was released in 2000. The band members at the beginning were Brad Arnold, Todd Harrell, Matt Roberts and Chris Henderson. The group was later joined by Richard Lilies. It was during a trip to Foley, Alabama, that they came up with their band official name. Since then the band has undergone changes, with some members leaving and others joining. By 2005, the band had sold over 12 million albums. </string>
+    <string name="band_members">Band Members</string>
+    <string name="member1">Brad Arnold</string>
+    <string name="member2">Todd Harrel (Fired 2013)</string>
+    <string name="member3">Matt Roberts (Left 2012)</string>
+    <string name="member4">Chris Henderson</string>
+    <string name="member5">Greg Upchurch</string>
+    <string name="member6">Chet Roberts</string>
+    <string name="member7">Richard Lilies (Left 2002)</string>
+    <string name="member8">Justin Biltonen</string>
+
+    <string name="success">The Band Success</string>
+    <string name="success_story">The band first studio album, \"The Better Life\", was released on February 8, 2000. It went on to become the 11th best-selling of the year, selling over 3 million copies. Some of the hits that gained international fame were \"Kryptonite\", \"Loser\" and \"Duck and Run\". A fourth single, \"Be Like That\" was re-recorded for the 2001 film American Pie 2. Their second album was released on November 12, 2002 and went platinum within two months of release. The album also produced two hit singles, \"When I am Gone\" and \"Here Without You\". The album sold 4 million copies worldwide. By 2005, the band had sold 12 million albums. The band has had great success in all their albums, most of which have been certified platinum.</string>
+    <string name="album">Studio Albums</string>
+    <string name="album1">1. The Better Life</string>
+    <string name="album2">2. Away from the Sun</string>
+    <string name="album3">3. Seventeen Days</string>
+    <string name="album4">4. Three Doors Down</string>
+    <string name="album5">5. Time of My Life</string>
+    <string name="album6">6. Us and the Night</string>
+
+    <!-- Quiz View -->
+    <string name="quiz">3 Doors Down Quiz</string>
+    <string name="headerContent">Popular Song</string>
+    <string name="song">Song: Here without you</string>
+    <string name="albumName">Album: Away from the sun</string>
+    <string name="releaseYr">Release Year: 2002</string>
+    <string name="playSong">Download Album</string>
+
+    <!-- Questions -->
+    <string name="quizQuestion1">1. When was the band formed?</string>
+    <string name="option1A">1996</string>
+    <string name="option1B">2000</string>
+    <string name="option1C">1998</string>
+    <string name="option1D">1997</string>
+
+    <string name="quizQuestion2">2. In which country is the band from?</string>
+    <string name="option2A">Australia</string>
+    <string name="option2B">Canada</string>
+    <string name="option2C">England</string>
+    <string name="option2D">America</string>
+
+    <string name="quizQuestion3">3. Which singles are written and sung by 3 doors down?</string>
+    <string name="option3A">Inside of Me</string>
+    <string name="option3B">Let Me Go</string>
+    <string name="option3C">Creep</string>
+    <string name="option3D">When I am Gone</string>
+
+    <string name="quizQuestion4">4. Correctly identify current members of the band.</string>
+    <string name="option4A">Todd Harrel</string>
+    <string name="option4B">Brad Arnold</string>
+    <string name="option4C">Richard Liles</string>
+    <string name="option4D">Chris Henderson</string>
+
+    <string name="quizQuestion5">5. What is the name of the band most recent studio album?</string>
+    <string name="option5A">The Better Life</string>
+    <string name="option5B">Us and the Night</string>
+    <string name="option5C">Seventeen Days</string>
+    <string name="option5D">Time of My Life</string>
+
+    <string name="quizQuestion6">6. The band had sold over 12 million albums by 2005.</string>
+    <string name="option6A">true</string>
+    <string name="option6B">false</string>
+
+    <string name="quizQuestion7">7. Brad Arnold is the band lead guitarist.</string>
+    <string name="option7A">true</string>
+    <string name="option7B">false</string>
+
+    <string name="quizQuestion8">8. What is the name of the band\'s first single?</string>
+    <string name="question8Hint">Enter Your Answer</string>
+
+    <string name="quizQuestion9">9. The band is known for its charity. What is the name of the bands foundation?</string>
+    <string name="option9A">Three Doors Down Foundation</string>
+    <string name="option9B">Global Giving Foundation</string>
+    <string name="option9C">The Better Life Foundation</string>
+    <string name="option9D">3 Doors Down and Friends</string>
+
+    <string name="quizQuestion10">10. Which concert did the band host in 2006, with the proceeds benefiting Hurricane Katrina survivors? </string>
+    <string name="option10A">3 Doors Down and Friends</string>
+    <string name="option10B">The Better Life Foundation</string>
+    <string name="option10C">Mobile Convention Center</string>
+    <string name="option10D">Another 700 Miles</string>
+
+    <!-- Score View -->
+    <string name="progress">Your Performance</string>
+    <string name="points1">0</string>
+    <string name="points2">0</string>
+    <string name="points3">0</string>
+    <string name="stats1">Correct Answers</string>
+    <string name="stats2">Questions Attempt</string>
+    <string name="stats3">% Percentage</string>
+    <string name="messageTitle">Congratulations,</string>
+    <string name="messageCongrats">You\'ve done well to learn about rock music and rock bands. I hope you have enjoyed learning, and you have learnt a thing or two about a favorite rock band. Getting to know the people behind the creation of awesome rock music is one way of appreciating their work. In most cases, rock music listeners only know the lead singer of the band. Or perhaps it is what most people identify in a band. However, there is a drummer and often a guitarist. We ought to recognize them and their input in the creative process of coming up with amazing rock hits we so love. Therefore, be sure to continue learning about rock bands, and support their works by listening and sharing their music.</string>
+    <string name="thanks">Cheers!</string>
+
+    <string name="poll">Poll Question</string>
+    <string name="pollQuestion">Which band do you consider as lyrical genius?</string>
+    <string name="band1Goat">The Beatles</string>
+    <string name="band2Goat">Radiohead</string>
+    <string name="band3Goat">AC/DC</string>
+    <string name="band4Goat">Nirvana</string>
+    <string name="band5Goat">Metallica</string>
+    <string name="band6Goat">Aerosmith</string>
+    <string name="band7Goat">Rolling Stones</string>
+    <string name="band8Goat">Led Zeppelin</string>
+    <string name="band9Goat">The Eagles</string>
+    <string name="band10Goat">Pink Floyd</string>
+    <string name="alternativePoll">Is the band not on the list? Suggest yours below!</string>
+    <string name="pollHint">Enter the Name of the Band</string>
+
+    <!-- About App -->
+    <string name="pageTitle">About the App</string>
+    <string name="brief">This Android Native is a simple project for Google Africa Scholarship 2018, Udacity Nanodegree for Android Basics. Given the project requirements, the aim is to create an educational android quiz app. The project must use radio buttons, checkboxes and edit text as well as compute scores. I have done something a bit different. The App uses intents to change activities and improvised hard coded algorithms to achieve the desired outcome. While going through the code, keep in mind am learning. So, I have not yet covered most of the resources available in Android. For instance, I have used raw code to create a list, instead of using resources like Recycler View.</string>
+    <string name="developer">The Developer/Designer</string>
+    <string name="devBio">I am Leonard. Currently learning Android. I love designing an App UI/UX from scratch using my imagination, then translating it into code. Am yet to master Android animations. Otherwise, I would have implemented various animations in the app UI to handle page transitions. As you can guess, am a rock music enthusiast. Lastly, you can find the documentations of this simple App on my Github @LeonarMuia . Thank you.  </string>
+    <string name="shareText">Share</string>
+
+    <!-- 5 Seconds of Summer -->
+    <string name="bandName1">5 Seconds of Summer</string>
+    <string name="bandInfo1">5 Seconds of Summers (5SOS) is an Australian pop rock band from Sydney, New South Wales. The band was formed in 2011. They are one of the bands that came on to the spotlight thanks to YouTube. They started of posting songs of themselves and doing covers of songs by other popular artists like Chris Brown and Mike Posner, during 2011 and early 2012. The band\'s type of music is influenced by bands like McFly, Blink-182, All Time Low, Mayday Parade, Green Day, My Chemical Romance and Boys Like Girls. The band on January 2014 announced they would be setting up their own label dubbed, Hi or Hey Records. </string>
+    <string name="bandMember1">Luke Hemmings</string>
+    <string name="bandMember2">Calum Hood</string>
+    <string name="bandMember3">Michael Clifford</string>
+    <string name="bandMember4">Ashton Irwin</string>
+    <string name="band1Success">The band rose into international fame after their tour with One Direction called, \"Take Me Home\". Their first music release, an EP entitled \"Unplugged\", reached number 3 on the iTunes chart in Australia and top 20 in both New Zealand and Sweden. The band released their first single, \"Out of My Limits\", on November 19 2012 whose YouTube video received over 100,000 views within the first 24 hours. The band also release their second single, \"Don\'t Stop\". It debuted at number 2 on the UK Singles Chart. It peaked at number one in 4 countries and was in the top 10 of 8 countries overall. They also released a self-titled album which won \"Kerrang Award\". The album debuted on the top of the Billboard 200 Chart, peaked at number one in 13 countries, and peaked in the top 10 in 26 countries. The band latest album is called \"Youngblood\", which was release on February 2018. The album debuted at number one in Australia and the US Billboard 200. It debuted number 3 in UK and seven other countries. Overall, the album reached the top 10 of 20 countries. </string>
+    <string name="bandAlbum1">5 Seconds of Summer</string>
+    <string name="bandAlbum2">Sounds Good Feels Good</string>
+    <string name="bandAlbum3">Youngblood</string>
+
+    <!-- ACDC -->
+    <string name="bandName2">AC-DC</string>
+    <string name="bandInfo2">AC/DC is an Australian rock band formed in Sydney, in 1973. It was founded by brothers Malcolm and Angus Young who are Scottish by migrated to Australia. Their music has been described as hard rock, blues rock and controversially heavy metal. The band underwent various membership changes before the release of their first album, \"High Voltage\" in 1975. The band has sold over 200 million albums, including 71.5 million albums in the United States. The brothers decided to form a band when their sister, Margaret Young, saw the initials \"AC/DC\" on a sewing machine. It is an abbreviation of alternative current and direct current electricity. The brothers felt that the name symbolized the band\'s raw energy, power-driven performances of their music. Since the band inception, there has been tremendous change in their constitution. But the band was essentially a brain child of the two brothers. </string>
+    <string name="bandMember5">Malcolm Young</string>
+    <string name="bandMember6">George Young</string>
+    <string name="bandMember7">Larry Van Kreidt</string>
+    <string name="bandMember8">Dave Evans (Replaced by Scott)</string>
+    <string name="bandMember9">Colin Burgess</string>
+    <string name="bandMember10">Ronald Belford Scott (Died 1980)</string>
+    <string name="bandMember11">Brian Johnson(Replaced Scott)</string>
+    <string name="bandMember12">Simon Wright (Replace Phil Rudd)</string>
+    <string name="band2Success">The band rose into international fame after their tour with One Direction called, \"Take Me Home\". Their first music release, an EP entitled \"Unplugged\", reached number 3 on the iTunes chart in Australia and top 20 in both New Zealand and Sweden. The band released their first single, \"Out of My Limits\", on November 19 2012 whose YouTube video received over 100,000 views within the first 24 hours. The band also release their second single, \"Don\'t Stop\". It debuted at number 2 on the UK Singles Chart. It peaked at number one in 4 countries and was in the top 10 of 8 countries overall. They also released a self-titled album which won \"Kerrang Award\". The album debuted on the top of the Billboard 200 Chart, peaked at number one in 13 countries, and peaked in the top 10 in 26 countries. The band latest album is called \"Youngblood\", which was release on February 2018. The album debuted at number one in Australia and the US Billboard 200. It debuted number 3 in UK and seven other countries. Overall, the album reached the top 10 of 20 countries. </string>
+    <string name="bandAlbum4">5 Seconds of Summer</string>
+    <string name="bandAlbum5">Sounds Good Feels Good</string>
+    <string name="bandAlbum7">Youngblood</string>
+</resources>

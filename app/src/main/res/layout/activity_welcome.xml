@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Design & Development by Leonard --><!-- ALC3.0 Google Africa Scholarship by Udacity | Quiz App -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Welcome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- LinearLayout ViewGroup -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <!-- The Main Logo -->
+            <ImageView
+                android:id="@+id/mainLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="3"
+                android:paddingLeft="90dp"
+                android:paddingRight="90dp"
+                android:src="@drawable/logo" />
+
+            <!-- Welcome Message -->
+            <LinearLayout
+                android:id="@+id/contentWrapper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/mainLogo"
+                android:layout_marginBottom="120dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/boldtitle"
+                    android:paddingLeft="30dp"
+                    android:text="@string/welcome_msg1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="2"
+                    android:fontFamily="@font/boldtitle"
+                    android:paddingLeft="30dp"
+                    android:text="@string/welcome_msg2"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="top"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/boldtitle"
+                    android:paddingLeft="30dp"
+                    android:text="@string/header_text"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <!-- Get Started Button -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/contentWrapper">
+
+                <ImageView
+                    android:id="@+id/getStarted"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/button1" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <!-- End of LinearLayout ViewGroup -->
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

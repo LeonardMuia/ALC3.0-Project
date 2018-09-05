@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <!-- Main ViewGroup -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Top Bar -->
+        <LinearLayout
+            android:id="@+id/headerTop"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:src="@drawable/headerlogo" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:fontFamily="@font/boldtitle"
+                android:paddingLeft="5dp"
+                android:paddingTop="15dp"
+                android:text="@string/header_text"
+                android:textColor="@color/colorWhite"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/mainContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/headerTop">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/titleA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:fontFamily="@font/boldtitle"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="@string/progress"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/backButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_toRightOf="@+id/titleA"
+                    android:paddingTop="10dp"
+                    android:src="@drawable/backbtn2" />
+
+                <LinearLayout
+                    android:id="@+id/scoredPoints"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/titleA"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/correctAnswers"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4"
+                            android:fontFamily="@font/segoeuib"
+                            android:gravity="center_horizontal"
+                            android:text="@string/points1"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="60sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:gravity="center_horizontal"
+                            android:text="@string/stats1"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/quizTaken"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="4"
+                            android:fontFamily="@font/segoeuib"
+                            android:gravity="center_horizontal"
+                            android:text="@string/points2"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="60sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:gravity="center_horizontal"
+                            android:text="@string/stats2"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/percentage"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="4"
+                            android:fontFamily="@font/segoeuib"
+                            android:gravity="center_horizontal"
+                            android:text="@string/points3"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="60sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/boldtitle"
+                            android:gravity="center_horizontal"
+                            android:text="@string/stats3"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/specialMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scoredPoints"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/messageTitle"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/segoeui"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/messageCongrats"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/boldtitle"
+                        android:paddingBottom="20dp"
+                        android:text="@string/thanks"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/pollContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/specialMessage"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/boldtitle"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="20dp"
+                        android:text="@string/poll"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/boldtitle"
+                        android:text="@string/pollQuestion"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <RadioGroup
+                        android:id="@+id/bandsGoat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RadioButton
+                            android:id="@+id/band1Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band1Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band2Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band2Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band3Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band3Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band4Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band4Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band5Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band5Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band6Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band6Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band7Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band7Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band8Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band8Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band9Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band9Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                        <RadioButton
+                            android:id="@+id/band10Goat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoeui"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/band10Goat"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="14sp" />
+
+                    </RadioGroup>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:fontFamily="@font/boldtitle"
+                        android:paddingTop="20dp"
+                        android:text="@string/alternativePoll"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp" />
+
+                    <EditText
+                        android:id="@+id/alternativeBand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorBeige"
+                        android:fontFamily="@font/segoeui"
+                        android:hint="@string/pollHint"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/colorPrimary"
+                        android:textColorHint="@color/colorPrimary"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/toAbout"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/pollContent"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/finish" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
