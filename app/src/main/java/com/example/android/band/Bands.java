@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class Bands extends Intro {
 
     // Indexing Band Id in Relation to Button Click
@@ -23,9 +26,7 @@ public class Bands extends Intro {
     }
 
     private void bandsWithQuiz() {
-        /*
-         *
-         * */
+
         ImageView visitBand1 = findViewById(R.id.link1);
         ImageView activeBand[] = {visitBand1};
 
@@ -45,7 +46,8 @@ public class Bands extends Intro {
      * Other Bands
      * Of Course they Don't Have a Quiz
      * */
-
+    //TODO :7 Since you are a new Android learner this here might be bad, I can try to show you other ways
+    // TODO on how you can implement this here.
     public void bandsWithoutQuiz() {
         ImageView visitBand2 = findViewById(R.id.link2);
         ImageView visitBand3 = findViewById(R.id.link3);
@@ -76,7 +78,6 @@ public class Bands extends Intro {
         ImageView visitBand28 = findViewById(R.id.link28);
         ImageView visitBand29 = findViewById(R.id.link29);
         ImageView visitBand30 = findViewById(R.id.link30);
-
         final ImageView activeBands[] = {visitBand2};
         final ImageView inactiveBands[] = {visitBand3, visitBand4, visitBand5, visitBand6, visitBand7, visitBand8, visitBand9, visitBand10, visitBand11, visitBand12, visitBand13, visitBand14, visitBand15, visitBand16, visitBand17, visitBand18, visitBand19, visitBand20, visitBand21, visitBand22, visitBand23, visitBand24, visitBand25, visitBand26, visitBand27, visitBand28, visitBand29, visitBand30};
 
