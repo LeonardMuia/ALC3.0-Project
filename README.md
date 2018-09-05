@@ -14,6 +14,7 @@ Just a simple App, with basic design, views and micro-processes.
 
 ## The App Mock/Idea
 
+![marty-mcfly](https://github.com/LeonardMuia/Band/blob/master/app/src/main/res/drawable/mock.png)
 
 ## Contributions
 Feel free to contribute or edit the app for your needs. The app is yet to incorporate butter knife or data binding library to eliminate boilerplate.
