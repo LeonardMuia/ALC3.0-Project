@@ -46,8 +46,8 @@ public class Bands extends Intro {
      * Other Bands
      * Of Course they Don't Have a Quiz
      * */
-    //TODO :7 Since you are a new Android learner this here might be bad, I can try to show you other ways
-    // TODO on how you can implement this here.
+    //TODO 2: Since you are a new Android learner this here might be bad, I can try to show you other ways
+    // TODO 7: on how you can implement this here.
     public void bandsWithoutQuiz() {
         ImageView visitBand2 = findViewById(R.id.link2);
         ImageView visitBand3 = findViewById(R.id.link3);

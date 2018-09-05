@@ -14,7 +14,7 @@ public class Score extends Quiz {
         setContentView(R.layout.score);
 
         // Back Button
-
+     //FIXME : I think you can add some nice packages to make it easy
         ImageView backBtn = findViewById(R.id.backButton3);
 
         backBtn.setOnClickListener(new View.OnClickListener() {

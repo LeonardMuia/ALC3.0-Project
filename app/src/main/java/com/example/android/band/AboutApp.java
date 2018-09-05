@@ -12,7 +12,7 @@ import butterknife.ButterKnife;
 
 public class AboutApp extends Score {
 
-    //TODO : 4 this makes it easier instead of having many casts
+    //TODO 4 : this makes it easier instead of having many casts
     @BindView(R.id.backButton6)
     ImageView backBtn;
 
@@ -24,7 +24,7 @@ public class AboutApp extends Score {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.aboutapp);
 
-        //TODO : 3 hook the butterknife library to the view
+        //TODO 3: hook the butterknife library to the view
         ButterKnife.bind(this);
         // Back to Bands List
 
